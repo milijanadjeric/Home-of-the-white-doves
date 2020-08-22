@@ -1,0 +1,291 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+}
+
+.main-div {
+  height: 100%;
+  background: -webkit-linear-gradient(
+    to bottom,
+    #004d99 20%,
+    #0073e6 70%,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #004d99 20%,
+    #0073e6 70%,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.logo2 {
+  display: flex;
+  width: 220px;
+  margin: 0 auto;
+  padding-top: 132px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #00c3ff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  justify-content: center;
+}
+
+
+.dove {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(3px 1px 2.5px #a6a6a6);
+}
+
+.contact-dove {
+  width: 50px;
+  height: 50px;
+  filter: drop-shadow(1.5px 1px 1.5px #a6a6a6);
+ 
+  
+}
+
+.dove-title,
+.contact-dove-title {
+  font-family: "Love Ya Like A Sister", cursive;
+  color: white;
+  font-size: 16.5px;
+  letter-spacing: 0.5px;
+  margin-left: -22px;
+  margin-top: 18px;
+  text-align: center;
+  z-index: 1;
+}
+.contact-dove-title {
+  font-size: 10.5px;
+  margin-top: 10px;
+  margin-left: -18px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  padding-top: 40px;
+}
+
+.contact-navigation {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+.contact-links {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+.contact-links.home {
+  padding-left: 130px;
+}
+.contact-links.gallery {
+  padding-right: 130px;
+}
+
+.links {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: "Love Ya Like A Sister", cursive;
+  padding-right: 70px;
+}
+
+a:hover {
+  color: #99e7ff;
+}
+
+.main-section,
+.contact-main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.contact-main-section {
+  padding-top: 60px;
+}
+
+.text {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 40px;
+  background: linear-gradient(to right, #66b3ff 10%, #fff 50%, #33cfff 80%);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4.5s linear infinite;
+  text-align: center;
+}
+
+.contact-text,
+.contact-text1 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 34px;
+  color: #33cfff;
+  text-align: center;
+  text-decoration: none;
+}
+.contact-text1 {
+  padding-bottom: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.footer,
+.footer2, 
+.footer3 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding-top: 201px;
+  text-align: center;
+  color: #004d99;
+  width: 290px;
+  margin: 0 auto;
+  border-bottom: 2px solid #99e7ff;
+}
+.footer2 {
+  padding-top: 5px;
+  border-bottom: none;
+ 
+}
+.footer3 {
+  padding-top: 54px;
+  border-bottom: 2px solid #99e7ff;
+  
+}
+
+/*  PAGE GALLERY  */
+
+.composition-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  
+}
+
+.composition {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.composition-photo {
+  width: 33.33333%;
+  border-radius: 2px;
+  z-index: 10;
+  transition: all 0.2s;
+  
+}
+.photo-1 {
+  width: 30%;
+  margin-top: -70px;
+  margin-right: -80px;
+  filter: drop-shadow(2px 3px 4px #404040);
+  filter: blur(.5px);
+  z-index: 4;
+  
+}
+.photo-1:hover {
+  outline: 2.5px solid #33cfff;
+  transform: scale(1.05) translateY(-0.5px);
+  filter:contrast(115%);
+  z-index: 20;
+}
+
+.photo-2 {
+  width: 30%;
+  margin-top: 40px;
+  filter: drop-shadow(2px 3px 4px #404040);
+  filter: blur(.5px);
+  
+}
+.photo-2:hover {
+  outline: 2.5px solid #33cfff;
+  filter:contrast(115%);
+ 
+}
+
+.photo-3 {
+  width: 30%;
+  margin-top: -70px;
+  margin-left: -80px;
+  z-index: 5;
+  filter: drop-shadow(2px 3px 4px #404040);
+  filter: blur(.5px);
+  
+}
+.photo-3:hover {
+  outline: 2.5px solid #33cfff;
+  transform: scale(1.05) translateY(-0.5px);
+  z-index: 20;
+  filter:contrast(115%);
+}
+
+.photo-4 {
+  width: 30%;
+  margin-top: -80px;
+  filter: drop-shadow(2px 3px 4px #404040);
+  filter: blur(.5px);
+  z-index: 6;
+  
+}
+.photo-4:hover {
+  outline: 2.5px solid #33cfff;
+  transform: scale(1.05) translateY(-0.5px);
+  z-index: 20;
+  filter:contrast(115%);
+}
+
+.photo-5 {
+  width: 30%;
+  margin-top: -80px;
+  margin-left: 70px;
+  z-index: 6;
+  filter: drop-shadow(2px 3px 4px #404040);
+  filter: blur(.5px);
+}
+.photo-5:hover {
+  outline: 2.5px solid #33cfff;
+  transform: scale(1.05) translateY(-0.5px);
+  z-index: 20;
+  filter:contrast(115%);
+}
