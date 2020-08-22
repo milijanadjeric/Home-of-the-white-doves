@@ -8,12 +8,13 @@
   -moz-box-sizing: inherit;
 }
 
-body {
-  height: 100%;
+html {
+  height: 100vh;
 }
 
+
 .main-div {
-  height: 100%;
+  height: 100vh;
   background: -webkit-linear-gradient(
     to bottom,
     #004d99 20%,
@@ -220,7 +221,6 @@ a:hover {
   margin-top: -70px;
   margin-right: -80px;
   filter: drop-shadow(2px 3px 4px #404040);
-  filter: blur(.5px);
   z-index: 4;
   
 }
@@ -235,7 +235,7 @@ a:hover {
   width: 30%;
   margin-top: 40px;
   filter: drop-shadow(2px 3px 4px #404040);
-  filter: blur(.5px);
+  
   
 }
 .photo-2:hover {
@@ -250,7 +250,7 @@ a:hover {
   margin-left: -80px;
   z-index: 5;
   filter: drop-shadow(2px 3px 4px #404040);
-  filter: blur(.5px);
+  
   
 }
 .photo-3:hover {
@@ -264,7 +264,7 @@ a:hover {
   width: 30%;
   margin-top: -80px;
   filter: drop-shadow(2px 3px 4px #404040);
-  filter: blur(.5px);
+ 
   z-index: 6;
   
 }
@@ -281,7 +281,7 @@ a:hover {
   margin-left: 70px;
   z-index: 6;
   filter: drop-shadow(2px 3px 4px #404040);
-  filter: blur(.5px);
+ 
 }
 .photo-5:hover {
   outline: 2.5px solid #33cfff;

@@ -1,0 +1,138 @@
+@media only screen and (max-width: 414px) {
+  /* THIS IS MEDIA QUERY FOR HOME PAGE  */
+  
+
+  .logo {
+    padding-left: 25px;
+  }
+  .dove {
+    width: 60px;
+    height: 60px;
+  }
+  .dove-title {
+    font-size: 12px;
+    margin-left: -15px;
+    margin-top: 13px;
+  }
+
+  .navigation {
+    padding-top: 30px;
+  }
+
+  .links {
+    font-size: 12px;
+    padding-right: 30px;
+  }
+  .main-section {
+    padding-top: 200px;
+  }
+
+  .text {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .footer {
+    padding-top: 230px;
+    font-size: 12px;
+    width: 260px;
+  }
+
+  /* THIS IS MEDIA QUERY FOR CONTACT PAGE  */
+
+  .contact-links {
+    font-size: 12px;
+  }
+  .contact-links.home {
+    padding-left: 50px;
+  }
+  .contact-links.gallery {
+    padding-right: 50px;
+  }
+  .contact-navigation {
+    padding-top: 30px;
+  }
+
+  .contact-main-section {
+    padding-top: 180px;
+  }
+
+  .contact-text1 {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .contact-text {
+    font-size: 20px;
+  }
+  .logo2 {
+    padding-top: 232px;
+    border-bottom: none;
+  }
+
+  .footer2 {
+    font-size: 12px;
+    border-bottom: 2px solid #99e7ff;
+    width: 255px;
+  }
+
+  /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
+   .composition-section {
+       padding-top: 30px;
+   }
+  .composition {
+    position: relative;
+    display: block;
+  }
+  .composition-photo {
+    width: 100%;
+  }
+  .photo-1 {
+    width: 100%;
+    margin-top: 40px;
+    filter: drop-shadow(2px 3px 4px #404040);
+  }
+  .photo-2 {
+    width: 100%;
+    filter: drop-shadow(2px 3px 4px #404040);
+  }
+  .photo-2:hover {
+    outline: 2.5px solid #33cfff;
+    transform: scale(1.05) translateY(-0.5px);
+    filter: contrast(115%);
+  }
+  .photo-3 {
+    width: 100%;
+    margin: 40px auto;
+    filter: drop-shadow(2px 3px 4px #404040);
+  }
+  .photo-4 {
+    width: 100%;
+    margin: 10px auto;
+    filter: drop-shadow(2px 3px 4px #404040);
+  }
+  .photo-5 {
+    width: 100%;
+    margin: 40px auto;
+    filter: drop-shadow(2px 3px 4px #404040);
+  }
+
+  .main-div {
+    height: 100%;
+    background: -webkit-linear-gradient(
+      to bottom,
+      #004d99 20%,
+      #0073e6 70%,
+      #ffffff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #004d99 20%,
+      #0073e6 70%,
+      #ffffff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .footer3 {
+      margin-bottom: 50px;
+  }
+}
