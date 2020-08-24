@@ -13,6 +13,7 @@ html {
 }
 
 
+
 .main-div {
   height: 100vh;
   background: -webkit-linear-gradient(
@@ -32,6 +33,7 @@ html {
 header {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .logo {
@@ -51,6 +53,12 @@ header {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   justify-content: center;
+}
+
+.logo3 {
+  display: none;
+
+
 }
 
 
@@ -131,6 +139,7 @@ a:hover {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
+  
 }
 .contact-main-section {
   padding-top: 60px;
@@ -177,7 +186,7 @@ a:hover {
   color: #004d99;
   width: 290px;
   margin: 0 auto;
-  border-bottom: 2px solid #99e7ff;
+  border-bottom: 1px solid #99e7ff;
 }
 .footer2 {
   padding-top: 5px;
@@ -186,7 +195,7 @@ a:hover {
 }
 .footer3 {
   padding-top: 54px;
-  border-bottom: 2px solid #99e7ff;
+ 
   
 }
 

@@ -1,7 +1,14 @@
 @media only screen and (max-width: 414px) {
+
+
   /* THIS IS MEDIA QUERY FOR HOME PAGE  */
   
-
+  header {
+    height: 10vh;
+  }
+  footer {
+    height: 10vh;
+  }
   .logo {
     padding-left: 25px;
   }
@@ -10,21 +17,22 @@
     height: 60px;
   }
   .dove-title {
-    font-size: 12px;
+    font-size: 13px;
     margin-left: -15px;
     margin-top: 13px;
   }
 
   .navigation {
-    padding-top: 30px;
+    padding-top: 33px;
   }
 
   .links {
-    font-size: 12px;
+    font-size: 13px;
     padding-right: 30px;
   }
   .main-section {
-    padding-top: 200px;
+    height: 80vh;
+    padding-top: 0;
   }
 
   .text {
@@ -32,15 +40,16 @@
     line-height: 55px;
   }
   .footer {
-    padding-top: 230px;
+    padding-top: 0;
     font-size: 12px;
     width: 260px;
+    
   }
 
   /* THIS IS MEDIA QUERY FOR CONTACT PAGE  */
 
   .contact-links {
-    font-size: 12px;
+    font-size: 13px;
   }
   .contact-links.home {
     padding-left: 50px;
@@ -53,7 +62,8 @@
   }
 
   .contact-main-section {
-    padding-top: 180px;
+    padding-top: 0;
+    height: 80vh;
   }
 
   .contact-text1 {
@@ -65,17 +75,28 @@
     font-size: 20px;
   }
   .logo2 {
-    padding-top: 232px;
+    padding-top: 0;
     border-bottom: none;
+    
+    
   }
 
   .footer2 {
     font-size: 12px;
     border-bottom: 2px solid #99e7ff;
     width: 255px;
+    padding-top: 0;
   }
 
   /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
+
+  .logo3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    
+  }
    .composition-section {
        padding-top: 30px;
    }
@@ -133,6 +154,7 @@
   }
   
   .footer3 {
+    padding-top: 10px;
       margin-bottom: 50px;
   }
 }
