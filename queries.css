@@ -171,6 +171,8 @@
   }
 }
 @media only screen and (max-width: 375px) {
+
+
 /* THIS IS MEDIA QUERY FOR HOME PAGE  */
 
 .logo {
@@ -179,6 +181,11 @@
 
 .navigation {
   padding-top: 34px;
+}
+
+.dove-title {
+  margin-top: 11px;
+  margin-left: -19px
 }
 
 }
