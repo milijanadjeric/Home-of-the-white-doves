@@ -81,7 +81,7 @@
     border-bottom: 1px solid #99e7ff;
     width: 255px;
     padding-top: 0;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
