@@ -180,12 +180,15 @@
 }
 
 .navigation {
-  padding-top: 34px;
+  padding-top: 33px;
 }
 
 .dove-title {
   margin-top: 11px;
   margin-left: -19px
+}
+.links {
+  padding-right: 25px;
 }
 
 }
