@@ -1,8 +1,6 @@
 @media only screen and (max-width: 414px) {
-
-
   /* THIS IS MEDIA QUERY FOR HOME PAGE  */
-  
+
   header {
     height: 10vh;
   }
@@ -43,7 +41,6 @@
     padding-top: 0;
     font-size: 12px;
     width: 260px;
-    
   }
 
   /* THIS IS MEDIA QUERY FOR CONTACT PAGE  */
@@ -77,15 +74,14 @@
   .logo2 {
     padding-top: 0;
     border-bottom: none;
-    
-    
   }
 
   .footer2 {
     font-size: 12px;
-    border-bottom: 2px solid #99e7ff;
+    border-bottom: 1px solid #99e7ff;
     width: 255px;
     padding-top: 0;
+    padding-bottom: 30px;
   }
 
   /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
@@ -95,11 +91,27 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 40px;
-    
   }
-   .composition-section {
-       padding-top: 30px;
-   }
+
+  .main-div-gallery {
+ 
+    background: -webkit-linear-gradient(
+      to bottom,
+      #004d99 20%,
+      #0073e6 90%,
+      #ffffff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #004d99 20%,
+      #0073e6 90%,
+      #ffffff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .composition-section {
+    padding-top: 30px;
+  }
   .composition {
     position: relative;
     display: block;
@@ -152,9 +164,9 @@
       #ffffff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  
+
   .footer3 {
     padding-top: 10px;
-      margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
