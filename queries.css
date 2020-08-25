@@ -269,12 +269,40 @@
 
 }
 
-@media only screen and (min-width: 1536px) {
+@media only screen and (min-width: 1920px) {
 
-  /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
+  /* THIS IS MEDIA QUERY FOR HOME PAGE  */
 
-  .footer {
-    padding-top: 3px;
+  .dove {
+    width: 90px;
+    height: 90px;
   }
+  .dove-title {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: -26px;
+  }
+
+  .links {
+    font-size: 19px;
+  }
+
+  .text {
+    font-size: 50px;
+  }
+
+  /* THIS IS MEDIA QUERY FOR CONTACT PAGE  */
+
+  .contact-text,
+  .contact-text1 {
+    font-size: 50px;
+  }
+
+  .contact-links.gallery,
+  .contact-links.home {
+    font-size: 19px;
+  }
+
+  
 
 }
