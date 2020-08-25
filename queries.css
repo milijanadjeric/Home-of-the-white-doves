@@ -241,7 +241,43 @@
    .logo3 {
      padding-top: 0;
    }
-  
 
+}
+
+@media only screen and (min-width: 1440px) {
+
+
+  /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
+
+
+  .composition {
+    width: 100%;
+  }
+
+  .photo-4 {
+    margin-top: -280px;
+  }
+  .photo-5 {
+    margin-top: -280px;
+  }
+  .footer3 {
+    padding-top: 60px;
+  }
+
+  /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
+
+  .logo2 {
+    padding-top: 27px;
+  }
+
+}
+
+@media only screen and (min-width: 1536px) {
+
+  /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
+
+  .footer {
+    padding-top: 3px;
+  }
 
 }

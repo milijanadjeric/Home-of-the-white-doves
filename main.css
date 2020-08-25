@@ -31,7 +31,7 @@ html {
 }
 
 .main-div-gallery {
- 
+  height: 100vh;
   background: -webkit-linear-gradient(
     to bottom,
     #004d99 20%,
