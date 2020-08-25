@@ -94,7 +94,7 @@
   }
 
   .main-div-gallery {
- 
+   height: 100%;
     background: -webkit-linear-gradient(
       to bottom,
       #004d99 20%,
@@ -110,6 +110,7 @@
   }
   
   .composition-section {
+    height: 80%;
     padding-top: 30px;
   }
   .composition {
