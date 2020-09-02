@@ -29,7 +29,25 @@
                     <p class="contact-text1">STEVE BALOG</p>
                     <p class="contact-text1">8 Dalcourt Dr., Scarborough <br>ON M1E 3H1 CANADA</p>
                     <p class="contact-text1">Tel: (416) 284-2151</p>
-                    <a class="contact-text" href="mailto:">homeofthewhitedoves@hotmail.com</a>
+                    <button class="open-button" onclick="openForm()">Send us a message</button>
+                    <div class="form-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                
+                          <label class="title"  for="name"><b>Name</b></label>
+                          <input type="text" placeholder="" name="name">
+                      
+                          <label class="title" for="email"><b>Email</b></label>
+                          <input type="text" placeholder="" name="email">
+
+                          <label class="title"  for="your-message"><b>Message</b></label>
+                          <textarea name="your-message" id="message" cols="30" rows="10"></textarea>
+                      
+                          <div class="buttons">
+                          <button type="submit" class="btn">Send Message</button>
+                          <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+                        </div>
+                        </form>
+                      </div>
                 </section>
         
                 <footer>
@@ -41,6 +59,24 @@
                 </footer>
         
             </div>
+
+
+            <script>
+                function openForm() {
+                document.getElementById("myForm").style.display = "block";
+              }
+              
+              function closeForm() {
+                document.getElementById("myForm").style.display = "none";
+              }
+
+    
+                 
+             
+                            
+            </script>
+
+            
     
 </body>
 </html>
