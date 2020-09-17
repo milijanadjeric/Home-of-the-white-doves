@@ -94,7 +94,7 @@
   }
 
   .form-container {
-    height: 600px;
+    height: 500px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background: -webkit-linear-gradient(
@@ -226,6 +226,14 @@
   right: 22px;
 }
 
+}
+
+@media only screen and (max-width: 360px) {
+  .form-popup {
+    right: 15px;
+  }
+
+  
 }
 
 @media only screen and (max-width: 320px) {
