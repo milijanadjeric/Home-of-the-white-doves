@@ -111,6 +111,10 @@
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
+  textarea {
+    border-radius: 5px;
+  }
+
   /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
 
   .logo3 {

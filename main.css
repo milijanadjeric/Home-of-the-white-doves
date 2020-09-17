@@ -12,8 +12,6 @@ html {
   height: 100vh;
 }
 
-
-
 .main-div {
   height: 100vh;
   background: -webkit-linear-gradient(
@@ -46,12 +44,10 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
   height: 5vh;
-  
 }
 
 .logo {
@@ -71,10 +67,7 @@ header {
 
 .logo3 {
   display: none;
-
-
 }
-
 
 .dove {
   width: 80px;
@@ -86,8 +79,6 @@ header {
   width: 50px;
   height: 50px;
   filter: drop-shadow(1.5px 1px 1.5px #a6a6a6);
- 
-  
 }
 
 .dove-title,
@@ -152,13 +143,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 90vh;
-}
-
-.contact-main-section {
   height: 80vh;
 }
-
 
 .text {
   font-family: "Love Ya Like A Sister", cursive;
@@ -192,7 +178,7 @@ a:hover {
 }
 
 .footer,
-.footer2, 
+.footer2,
 .footer3 {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
@@ -201,18 +187,14 @@ a:hover {
   color: #004d99;
   width: 290px;
   margin: 0 auto;
-
 }
 
 footer {
   height: 5vh;
 }
 
-
 .footer3 {
   padding-top: 33px;
-  
-  
 }
 
 /*  PAGE GALLERY  */
@@ -222,7 +204,6 @@ footer {
   justify-content: center;
   padding-top: 30px;
   height: 80vh;
-  
 }
 
 .composition {
@@ -240,7 +221,6 @@ footer {
   border-radius: 2px;
   z-index: 10;
   transition: all 0.2s;
-  
 }
 .photo-1 {
   width: 30%;
@@ -248,12 +228,11 @@ footer {
   margin-right: -80px;
   filter: drop-shadow(2px 3px 4px #404040);
   z-index: 4;
-  
 }
 .photo-1:hover {
   outline: 2.5px solid #33cfff;
   transform: scale(1.05) translateY(-0.5px);
-  filter:contrast(115%);
+  filter: contrast(115%);
   z-index: 20;
 }
 
@@ -261,13 +240,10 @@ footer {
   width: 30%;
   margin-top: 40px;
   filter: drop-shadow(2px 3px 4px #404040);
-  
-  
 }
 .photo-2:hover {
   outline: 2.5px solid #33cfff;
-  filter:contrast(115%);
- 
+  filter: contrast(115%);
 }
 
 .photo-3 {
@@ -276,29 +252,26 @@ footer {
   margin-left: -80px;
   z-index: 5;
   filter: drop-shadow(2px 3px 4px #404040);
-  
-  
 }
 .photo-3:hover {
   outline: 2.5px solid #33cfff;
   transform: scale(1.05) translateY(-0.5px);
   z-index: 20;
-  filter:contrast(115%);
+  filter: contrast(115%);
 }
 
 .photo-4 {
   width: 30%;
   margin-top: -180px;
   filter: drop-shadow(2px 3px 4px #404040);
- 
+
   z-index: 6;
-  
 }
 .photo-4:hover {
   outline: 2.5px solid #33cfff;
   transform: scale(1.05) translateY(-0.5px);
   z-index: 20;
-  filter:contrast(115%);
+  filter: contrast(115%);
 }
 
 .photo-5 {
@@ -307,13 +280,12 @@ footer {
   margin-left: 70px;
   z-index: 6;
   filter: drop-shadow(2px 3px 4px #404040);
- 
 }
 .photo-5:hover {
   outline: 2.5px solid #33cfff;
   transform: scale(1.05) translateY(-0.5px);
   z-index: 20;
-  filter:contrast(115%);
+  filter: contrast(115%);
 }
 
 /*  CONTACT FORM  */
@@ -329,12 +301,10 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 4.5s linear infinite;
-  padding: 16px 20px;
-  border: none;
+  padding: 6px 20px;
   cursor: pointer;
-  opacity: 0.8;
-  
-  
+  border: 0.5px solid #33cfff;
+  border-radius: 50px;
 }
 
 /* The popup form - hidden by default */
@@ -356,38 +326,35 @@ footer {
 }
 
 /* Full-width input fields */
-.form-container input[type=text]
- {
+.form-container input[type="text"] {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
-  color: white;  
+  color: white;
   width: 80%;
   padding: 5px;
   margin: 5px 0 22px 0;
   border: none;
   border-bottom: 1px solid #cccccc;
-  background:transparent;
+  background: transparent;
 }
 
 textarea {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
-  color: white;  
+  color: white;
   padding: 5px;
   margin: 10px 10px 10px 10px;
   border: 1px solid #cccccc;
-  background:transparent;
+  border-radius: 10px;
+  background: transparent;
   max-width: 90%;
   min-width: 90%;
   max-height: 200px;
   min-height: 200px;
-  
-  
 }
 
-
 /* When the inputs get focus, do something */
-.form-container input[type=text]:focus,
+.form-container input[type="text"]:focus,
 textarea:focus {
   background-color: transparent;
   outline: none;
@@ -402,44 +369,40 @@ textarea:focus {
 .form-container .btn {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   background-color: white;
   color: #0073e6;
   padding: 10px 5px;
-  border: .5px solid #0073e6;
+  border: 0.5px solid #0073e6;
   border-radius: 50px;
   cursor: pointer;
   width: 50%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   opacity: 0.9;
-  box-shadow:  2px 2px #0073e628;
-  
-  
+  box-shadow: 2px 2px #0073e628;
 }
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color:white;
+  background-color: white;
 }
 
 /* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
+.form-container .btn:hover,
+.open-button:hover {
   opacity: 0.9;
   color: #33cfff;
-  border:  .5px solid #33cfff;
-  
-  
-}
-.open-button:hover {
-  border-radius: 10px;
+  border-color: #33cfff;
 }
 
+.open-button:hover {
+  opacity: 0.7;
+  
+}
 
 .title {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
   color: #33cfff;
-  
-
 }
