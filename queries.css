@@ -99,13 +99,13 @@
     border-bottom-right-radius: 5px;
     background: -webkit-linear-gradient(
       to top,
-      #004d99 5%,
+      #004d99 1%,
       #0073e6 70%,
       #f2f2f2
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to top,
-      #004d99 5%,
+      #004d99 1%,
       #0073e6 70%,
       #f2f2f2
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
