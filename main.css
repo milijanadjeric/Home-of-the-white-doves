@@ -352,21 +352,39 @@ footer {
 .form-container {
   max-width: 300px;
   padding: 15px;
-  background-color:transparent;
+  background: transparent;
 }
 
 /* Full-width input fields */
-.form-container input[type=text],
+.form-container input[type=text]
+ {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 14px;
+  color: white;  
+  width: 80%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  background:transparent;
+}
+
 textarea {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
   color: white;  
-  width: 100%;
   padding: 5px;
-  margin: 5px 0 22px 0;
-  border: none;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
   background:transparent;
+  max-width: 90%;
+  min-width: 85%;
+  max-height: 200px;
+  min-height: 200px;
+  
+  
 }
+
 
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus,
@@ -375,16 +393,8 @@ textarea:focus {
   outline: none;
 }
 
-textarea {
-  max-width: 100%;
-  min-width: 100%;
-  max-height: 200px;
-  min-height: 200px;
-  font-family: "Love Ya Like A Sister", cursive;
-  font-size: 14px;
-  color: white;
-}
 .buttons {
+  margin-top: 25px;
   text-align: center;
 }
 
@@ -398,11 +408,13 @@ textarea {
   color: #0073e6;
   padding: 10px 5px;
   border: .5px solid #0073e6;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
   width: 50%;
   margin-bottom:10px;
   opacity: 0.9;
+  box-shadow:  2px 2px #0073e628;
+  
   
 }
 
@@ -413,7 +425,14 @@ textarea {
 
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+  opacity: 0.9;
+  color: #33cfff;
+  border:  .5px solid #33cfff;
+  
+  
+}
+.open-button:hover {
+  border-radius: 10px;
 }
 
 
@@ -421,5 +440,6 @@ textarea {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 14px;
   color: #33cfff;
+  
 
 }

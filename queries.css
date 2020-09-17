@@ -1,4 +1,6 @@
 @media only screen and (max-width: 414px) {
+
+
   /* THIS IS MEDIA QUERY FOR HOME PAGE  */
 
   header {
@@ -64,7 +66,7 @@
   }
 
   .contact-text1 {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 55px;
   }
 
@@ -78,10 +80,35 @@
 
   .footer2 {
     font-size: 12px;
-    border-bottom: 1px solid #99e7ff;
     width: 255px;
     padding-top: 0;
     margin-bottom: 30px;
+  }
+
+  /* THIS IS MEDIA QUERY FOR CONTACT FORM  */
+
+  .form-popup {
+    top: 0;
+    border: none;
+    right: 42px;
+  }
+
+  .form-container {
+    height: 600px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: -webkit-linear-gradient(
+      to top,
+      #004d99 5%,
+      #0073e6 70%,
+      #f2f2f2
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #004d99 5%,
+      #0073e6 70%,
+      #f2f2f2
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
@@ -192,6 +219,13 @@
   padding-right: 25px;
 }
 
+
+ /* THIS IS MEDIA QUERY FOR CONTACT FORM  */
+
+ .form-popup {
+  right: 22px;
+}
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -237,6 +271,24 @@
     height: 70vh;
   }
 
+  /* THIS IS MEDIA QUERY FOR CONTACT FORM  */
+
+ .form-popup {
+  right: 5px;
+}
+
+.form-container {
+  max-width: 280px;
+  height: 480px;
+}
+
+
+.buttons {
+  margin-top: 0;
+}
+
+
+  
    /* THIS IS MEDIA QUERY FOR GALLERY PAGE  */
 
    .logo3 {
