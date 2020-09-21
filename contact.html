@@ -11,7 +11,7 @@
 </head>
 <body>
 
-        <div class="main-div">
+        <div class="main-div-contact">
 
                 <header>
         
@@ -30,6 +30,7 @@
                     <p class="contact-text1">8 Dalcourt Dr., Scarborough <br>ON M1E 3H1 CANADA</p>
                     <p class="contact-text1">Tel: (416) 284-2151</p>
                     <button class="open-button" onclick="openForm()">Send us a message</button>
+                    <div>
                     <div class="form-popup" id="myForm">
                         <form action="/action_page.php" class="form-container">
                 
@@ -69,6 +70,16 @@
               function closeForm() {
                 document.getElementById("myForm").style.display = "none";
               }
+
+              // Get the modal
+var modal = document.getElementById('contactForm');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
     
                  

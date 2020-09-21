@@ -12,7 +12,9 @@ html {
   height: 100vh;
 }
 
-.main-div {
+.main-div, 
+.main-div-gallery,
+.main-div-contact {
   height: 100vh;
   background: -webkit-linear-gradient(
     to bottom,
@@ -28,21 +30,6 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.main-div-gallery {
-  height: 100vh;
-  background: -webkit-linear-gradient(
-    to bottom,
-    #004d99 20%,
-    #0073e6 70%,
-    #ffffff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #004d99 20%,
-    #0073e6 70%,
-    #ffffff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 header {
   display: flex;
@@ -144,6 +131,9 @@ a:hover {
   align-items: center;
   flex-direction: column;
   height: 80vh;
+}
+.main-section {
+  height: 90vh;
 }
 
 .text {
